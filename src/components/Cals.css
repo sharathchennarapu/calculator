@@ -16,47 +16,46 @@
     align-items: center;
     justify-content: center;
     background-color: aqua;
-  
 }
 .container-item
 {
-    padding: 30px;
-    border-radius: 15px;
+    padding: 20px;
+    border-radius: 10px;
     background-color: white;
 }
 .inputfeild>input
 {
-    width: 90px;
-    height: 90px;
-    font-size: 25px;
-    background-color: rgb(38, 155, 6);
+    width: 50px;
+    height: 50px;
+    font-size: 15px;
+    background-color: rgb(0, 255, 17);
     margin: 2px;
-    border-radius: 80px;
+    border-radius: 10px;
     color: white;
     font-weight: bolder;
-    cursor: pointer; 
+    cursor: pointer;
     border: none;
 }
 .inputfeild>input:hover
 {
-    background-color: rgb(55, 255, 0);
-    color: rgb(38, 155, 6) ;
+    background-color:   rgb(230, 253, 232);
+    border: 1px solid rgb(0, 255, 17);
+    color:  rgb(0, 255, 17);
 }
 .display
 {
     display: flex;
     justify-content: flex-end;
-    margin-top: 5px;
-    margin-bottom: 20px;
+    margin: 5px 0px 20px 0px;
 }
 .display>input
 {
-    height: 65px;
     text-align: right;
-    flex: 1;
-    font-size: 25px;
-    padding: 5px 10px;
-    background-color: grey;
-    border-radius: 10px;
+    height: 45px;
+    width: 200px;
+    font-size: 30px;
     border: none;
+    background-color: rgb(185, 246, 153);
+    border-radius: 10px;
+    padding-right: 10px;
 }

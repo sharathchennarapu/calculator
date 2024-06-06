@@ -5,28 +5,6 @@ function Cals() {
     const [value, setValue] = useState('');
 
 
-    // let firstNumber
-    // let secondNumber
-    // let result = 0
-    // let operation
-    // let display = document.getElementById('display')
-
-    // const calculateEquals = () => {
-    //     if(operation === '+') {
-    //             result = firstNumber + secondNumber
-    //             display.value = result
-    //         } else if(operation === '-'){
-    //             result = firstNumber - secondNumber
-    //             display.value = result
-    //         } else if(operation === '*'){
-    //             result = firstNumber * secondNumber
-    //             display.value = result
-    //         } else if(operation === '/'){
-    //             result = firstNumber / secondNumber
-    //             display.value = result
-    //         }
-    // }
-
   return (
     <>
     <h1 className='heading'>Calculator</h1>
@@ -66,7 +44,6 @@ function Cals() {
                     <input type='button' value='0' onClick={e => setValue(value + e.target.value)}/>
                     {/* eslint-disable-next-line */}
                     < input type='button' value='=' onClick={e => setValue(eval(value))}/>   
-                    {/* < input type='button' value='=' onClick={calculateEquals()}/> */}
                 </div>
             </form>
 
